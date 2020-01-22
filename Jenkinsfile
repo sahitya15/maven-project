@@ -11,7 +11,7 @@ stage('cloning code')
 
 steps
 
-{git 'git 'https://github.com/sahitya15/maven-project.git'
+{git 'https://github.com/sahitya15/maven-project.git'
 }
 }
 
