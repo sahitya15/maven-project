@@ -1,2 +1,4 @@
 FROM tomcat:latest
-COPY ./target/*.war /usr/share/tomcat/webapps/
+EXPOSE 8080
+ADD target/webapp.war webapp.war 
+ENTRYPOINT ["java","-war","/webapp.war"]
